@@ -20,7 +20,7 @@ class App extends Component {
             <div className="authors">
               <h3>Authors</h3>
               <div className="row">
-                <div className="col-4">
+                <div className="col-lg-4 col-md-6 col-12">
                   <a href="#" className="card">
                     <div className="image">
                       <img className="card-img-top img-fluid" src={authors[0].imageUrl} />
@@ -33,7 +33,7 @@ class App extends Component {
                     </div>
                   </a>
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4 col-md-6 col-12">
                   <a href="#" className="card">
                     <div className="image">
                       <img className="card-img-top img-fluid" src={authors[1].imageUrl} />
@@ -46,7 +46,7 @@ class App extends Component {
                     </div>
                   </a>
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4 col-md-6 col-12">
                   <a href="#" className="card">
                     <div className="image">
                       <img className="card-img-top img-fluid" src={authors[2].imageUrl} />
@@ -59,7 +59,7 @@ class App extends Component {
                     </div>
                   </a>
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4 col-md-6 col-12">
                   <a href="#" className="card">
                     <div className="image">
                       <img className="card-img-top img-fluid" src={authors[3].imageUrl} />
