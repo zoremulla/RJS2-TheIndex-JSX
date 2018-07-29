@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import authors from './data';
+import React, { Component } from "react";
+import authors from "./data";
 
 class App extends Component {
   render() {
@@ -7,14 +7,14 @@ class App extends Component {
       <div id="app" className="container-fluid">
         <div className="row">
           <div className="col-2">
-            <sidebar>
+            <div id="sidebar">
               <img src="theindex.svg" className="logo" />
               <section>
                 <h4 className="menu-item active">
                   <a href="#">AUTHORS</a>
                 </h4>
               </section>
-            </sidebar>
+            </div>
           </div>
           <div className="content col-10">
             <div className="authors">
@@ -23,52 +23,80 @@ class App extends Component {
                 <div className="col-lg-4 col-md-6 col-12">
                   <a href="#" className="card">
                     <div className="image">
-                      <img className="card-img-top img-fluid" src={authors[0].imageUrl} />
+                      <img
+                        className="card-img-top img-fluid"
+                        src={authors[0].imageUrl}
+                      />
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
-                        <span>{authors[0].first_name + " " + authors[0].last_name}</span>
+                        <span>
+                          {authors[0].first_name + " " + authors[0].last_name}
+                        </span>
                       </h5>
-                      <small className="card-text">{authors[0].books.length} books</small>
+                      <small className="card-text">
+                        {authors[0].books.length} books
+                      </small>
                     </div>
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
                   <a href="#" className="card">
                     <div className="image">
-                      <img className="card-img-top img-fluid" src={authors[1].imageUrl} />
+                      <img
+                        className="card-img-top img-fluid"
+                        src={authors[1].imageUrl}
+                      />
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
-                        <span>{authors[1].first_name + " " + authors[1].last_name}</span>
+                        <span>
+                          {authors[1].first_name + " " + authors[1].last_name}
+                        </span>
                       </h5>
-                      <small className="card-text">{authors[1].books.length} books</small>
+                      <small className="card-text">
+                        {authors[1].books.length} books
+                      </small>
                     </div>
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
                   <a href="#" className="card">
                     <div className="image">
-                      <img className="card-img-top img-fluid" src={authors[2].imageUrl} />
+                      <img
+                        className="card-img-top img-fluid"
+                        src={authors[2].imageUrl}
+                      />
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
-                        <span>{authors[2].first_name + " " + authors[2].last_name}</span>
+                        <span>
+                          {authors[2].first_name + " " + authors[2].last_name}
+                        </span>
                       </h5>
-                      <small className="card-text">{authors[2].books.length} books</small>
+                      <small className="card-text">
+                        {authors[2].books.length} books
+                      </small>
                     </div>
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
                   <a href="#" className="card">
                     <div className="image">
-                      <img className="card-img-top img-fluid" src={authors[3].imageUrl} />
+                      <img
+                        className="card-img-top img-fluid"
+                        src={authors[3].imageUrl}
+                      />
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
-                        <span>{authors[3].first_name + " " + authors[3].last_name}</span>
+                        <span>
+                          {authors[3].first_name + " " + authors[3].last_name}
+                        </span>
                       </h5>
-                      <small className="card-text">{authors[3].books.length} books</small>
+                      <small className="card-text">
+                        {authors[3].books.length} books
+                      </small>
                     </div>
                   </a>
                 </div>
