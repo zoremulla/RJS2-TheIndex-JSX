@@ -8,7 +8,7 @@ class App extends Component {
         <div className="row">
           <div className="col-2">
             <div id="sidebar">
-              <img src="theindex.svg" className="logo" />
+              <img src="theindex.svg" className="logo" alt="the index logo" />
               <section>
                 <h4 className="menu-item active">
                   <a href="#">AUTHORS</a>
@@ -26,6 +26,7 @@ class App extends Component {
                       <img
                         className="card-img-top img-fluid"
                         src={authors[0].imageUrl}
+                        alt={authors[0].first_name + " " + authors[0].last_name}
                       />
                     </div>
                     <div className="card-body">
@@ -46,6 +47,7 @@ class App extends Component {
                       <img
                         className="card-img-top img-fluid"
                         src={authors[1].imageUrl}
+                        alt={authors[1].first_name + " " + authors[1].last_name}
                       />
                     </div>
                     <div className="card-body">
@@ -66,6 +68,7 @@ class App extends Component {
                       <img
                         className="card-img-top img-fluid"
                         src={authors[2].imageUrl}
+                        alt={authors[2].first_name + " " + authors[2].last_name}
                       />
                     </div>
                     <div className="card-body">
@@ -86,6 +89,7 @@ class App extends Component {
                       <img
                         className="card-img-top img-fluid"
                         src={authors[3].imageUrl}
+                        alt={authors[3].first_name + " " + authors[3].last_name}
                       />
                     </div>
                     <div className="card-body">
