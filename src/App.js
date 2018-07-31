@@ -11,7 +11,7 @@ class App extends Component {
               <img src="theindex.svg" className="logo" alt="the index logo" />
               <section>
                 <h4 className="menu-item active">
-                  <a href="#">AUTHORS</a>
+                  <button>AUTHORS</button>
                 </h4>
               </section>
             </div>
@@ -21,7 +21,7 @@ class App extends Component {
               <h3>Authors</h3>
               <div className="row">
                 <div className="col-lg-4 col-md-6 col-12">
-                  <a href="#" className="card">
+                  <div className="card">
                     <div className="image">
                       <img
                         className="card-img-top img-fluid"
@@ -39,10 +39,10 @@ class App extends Component {
                         {authors[0].books.length} books
                       </small>
                     </div>
-                  </a>
+                  </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
-                  <a href="#" className="card">
+                  <div className="card">
                     <div className="image">
                       <img
                         className="card-img-top img-fluid"
@@ -60,10 +60,10 @@ class App extends Component {
                         {authors[1].books.length} books
                       </small>
                     </div>
-                  </a>
+                  </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
-                  <a href="#" className="card">
+                  <div className="card">
                     <div className="image">
                       <img
                         className="card-img-top img-fluid"
@@ -81,10 +81,10 @@ class App extends Component {
                         {authors[2].books.length} books
                       </small>
                     </div>
-                  </a>
+                  </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
-                  <a href="#" className="card">
+                  <div className="card">
                     <div className="image">
                       <img
                         className="card-img-top img-fluid"
@@ -102,7 +102,7 @@ class App extends Component {
                         {authors[3].books.length} books
                       </small>
                     </div>
-                  </a>
+                  </div>
                 </div>
               </div>
             </div>
