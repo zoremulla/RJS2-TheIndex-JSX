@@ -6,7 +6,7 @@ You're given a project that displays the following:
 
 This page is displayed using just HTML, written in the `public/index.html` file. Your job is to recreate this page using JSX in the `src/App.js` file.
 
-#### Setup
+## Setup
 
 1. Fork the [repository](https://github.com/JoinCODED/RJS2-TheIndex-JSX)
 2. Clone it.
