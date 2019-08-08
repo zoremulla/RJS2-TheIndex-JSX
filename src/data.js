@@ -2,7 +2,8 @@ const authors = [
   {
     first_name: "J.K.",
     last_name: "Rowling",
-    imageUrl: "https://nation.com.pk/digital_images/large/2015-05-10/jk-rowling-believes-in-standing-up-to-bullies-1431261222-3596.jpeg",
+    imageUrl:
+      "https://nation.com.pk/digital_images/large/2015-05-10/jk-rowling-believes-in-standing-up-to-bullies-1431261222-3596.jpeg",
     books: [
       {
         title: "Harry Potter and the Philosopher's Stone",
@@ -37,7 +38,8 @@ const authors = [
   {
     first_name: "George R.R.",
     last_name: "Martin",
-    imageUrl: "https://typeset-beta.imgix.net/elite-daily/2016/03/06144207/elite-daily-George-RR-Martin.jpg?w=800&h=800&auto=format&q=70&fit=crop&crop=faces",
+    imageUrl:
+      "https://typeset-beta.imgix.net/elite-daily/2016/03/06144207/elite-daily-George-RR-Martin.jpg?w=800&h=800&auto=format&q=70&fit=crop&crop=faces",
     books: [
       {
         title: "A Game of Thrones",
@@ -58,13 +60,14 @@ const authors = [
       {
         title: "A Dance With Dragons",
         color: "white"
-      },
+      }
     ]
   },
   {
     first_name: "J.R.R",
     last_name: "Tolkein",
-    imageUrl: "https://images.8tracks.com/cover/i/010/010/920/tolkeinbigger-2362.jpg?rect=166,0,500,500&q=98&fm=jpg&fit=max",
+    imageUrl:
+      "https://images.8tracks.com/cover/i/010/010/920/tolkeinbigger-2362.jpg?rect=166,0,500,500&q=98&fm=jpg&fit=max",
     books: [
       {
         title: "The Hobbit",
@@ -85,13 +88,14 @@ const authors = [
       {
         title: "The Silmarillion",
         color: "black"
-      },
+      }
     ]
   },
   {
     first_name: "Margaret",
     last_name: "Atwood",
-    imageUrl: "https://literature.britishcouncil.org/assets/Uploads/writers/_resampled/CroppedImage680680-Margaret-Atwood-c-Jean-Malek-web.jpg",
+    imageUrl:
+      "https://literature.britishcouncil.org/assets/Uploads/writers/_resampled/CroppedImage680680-Margaret-Atwood-c-Jean-Malek-web.jpg",
     books: [
       {
         title: "Oryx and Crake",
@@ -108,7 +112,7 @@ const authors = [
       {
         title: "The Handmaid's Tale",
         color: "red"
-      },
+      }
     ]
   }
 ];
